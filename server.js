@@ -27,7 +27,7 @@ io.on('connection', (socket) => {
   });
 });
 
-const PORT = process.env.PORT || 3001; // Utilise le port défini par Render ou 3001 en local
+const PORT = process.env.PORT || 8080; // Utilise le port défini par Render ou 3001 en local
 server.listen(PORT, () => {
   console.log(`Serveur Socket.IO en écoute sur le port ${PORT}`);
 });
